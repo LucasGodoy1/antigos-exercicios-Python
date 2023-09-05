@@ -1,7 +1,7 @@
 print ('-'*30)
 print ('-'*30)
 
-def anal (* num):
+def anali (* num):
     contador = maior = 0
     print ('Analisando Valores')
     for n in num:
@@ -16,9 +16,9 @@ def anal (* num):
     print (f'O maior valor informado foi {maior}')   
 
  
-anal (2, 9, 4, 5, 7, 1)
-anal (4, 7, 0)
-anal (1, 2)
-anal (6)
-anal (0)
+anali (2, 9, 4, 5, 7, 1)
+anali (4, 7, 0)
+anali (1, 2)
+anali (6)
+anali (0)
 
